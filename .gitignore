@@ -1,24 +1,14 @@
-# Virtual environment
-.venv/
-env/
-venv/
+# Machine learning models
+*.pkl
+*.joblib
 
-# Python cache and temporary files
+# Python cache
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# Jupyter notebook checkpoints
-.ipynb_checkpoints/
+# Virtual environments
+.venv/
+venv/
 
-# Data files (optional — if you have large raw datasets)
-data/
+# Dataset
 *.csv
-
-# OS / Editor files
-.DS_Store
-Thumbs.db
-
-# Logs or temporary output
-*.log
