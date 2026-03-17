@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (optional — if you have large raw datasets)
+data/
+*.csv
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+
+# Logs or temporary output
+*.log
