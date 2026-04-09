@@ -2,6 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
+
 # Load model and preprocessors
 model = joblib.load("xgboost_cuisine_model.pkl")
 label_y = joblib.load("label_encoder.pkl")
